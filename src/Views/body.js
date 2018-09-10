@@ -144,7 +144,7 @@ function Album(props) {
       {/* Footer */}
       <footer className={classes.footer}>
         <Typography variant="title" align="center" gutterBottom>
-          Footer
+          &copy; Swim Share 2018
         </Typography>
         <Typography
           variant="subheading"
@@ -152,7 +152,7 @@ function Album(props) {
           color="textSecondary"
           component="p"
         >
-          Something here to give the footer a purpose!
+          A Software Engineering Practice Project (Miranda)
         </Typography>
       </footer>
       {/* End footer */}

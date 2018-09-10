@@ -19,7 +19,7 @@ const styles = theme => ({
   textField: {
     marginLeft: theme.spacing.unit,
     marginRight: theme.spacing.unit,
-    width: 200
+    width: 300
   },
 
   menu: {
@@ -45,12 +45,48 @@ function ImgMediaCard(props) {
         <Typography gutterBottom variant="headline" component="h2">
           Search for pools around you.
         </Typography>
-        <Typography component="p">Forms to be added</Typography>
+        <Typography component="p">Enter athe address below</Typography>
+        <div className={classes.container}>
+          <TextField
+            label="Street:"
+            id="margin-none"
+            defaultValue="10 Broadway"
+            className={classes.textField}
+            helperText="Street Address"
+          />
+          <TextField
+            label="City"
+            id="margin-dense"
+            defaultValue="Sydney"
+            className={classes.textField}
+            helperText=""
+            margin="dense"
+          />
+          <TextField
+            label="State"
+            id="margin-dense"
+            defaultValue="NSW"
+            className={classes.textField}
+            helperText=""
+            margin="dense"
+          />
+          <TextField
+            label="PostCode"
+            id="margin-dense"
+            defaultValue="2000"
+            className={classes.textField}
+            helperText="Some important text"
+            margin="dense"
+          />
+        </div>
       </CardContent>
 
       <CardActions>
         <Button size="small" color="primary">
-          Learn More
+          Use your location
+        </Button>
+        <Button size="small" color="primary">
+          Next
         </Button>
       </CardActions>
     </Card>

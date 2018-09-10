@@ -32,8 +32,8 @@ function ButtonAppBar(props) {
             color="inherit"
             aria-label="Menu"
           >
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%C3%96rebro_slott_resynth.jpg/77px-%C3%96rebro_slott_resynth.jpg" />
-          </IconButton>
+            <img src="/Views/logo22.png" />
+          </IconButton>asd
           <Typography
             variant="headline"
             color="inherit"
