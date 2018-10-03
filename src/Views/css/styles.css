@@ -1,0 +1,9 @@
+
+.boxed {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    background: #ff1c68;
+    transform-origin: 50% 50%;
+}
